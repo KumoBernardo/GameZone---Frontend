@@ -1,101 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inscrição</title>
-</head>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
 
-<!-- CONTÉUDO -->
-<body>
+  <!-- CONTÉUDO -->
+  <body>
     <!-- CABEÇALHO -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Pagina-inicial</a></li>
-                <li><a href="./jogos.html">Jogos</a></li>
-                <li><a href="./campeonatos.html">Campeonatos</a></li>
-                <li><a href="./inscricao.html">Inscrição</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <h1>GameZone</h1>
+        <ul>
+          <li><a href="./index.html">Página inicial</a></li>
+          <li><a href="./jogos.html">Jogos</a></li>
+          <li><a href="./campeonatos.html">Campeonatos</a></li>
+          <li><a href="./inscricao.html">Inscrição</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-      <h2> CADASTRO DE COMPETIDOR </h2>
+      <h2>CADASTRO DE COMPETIDOR</h2>
 
       <form action=" ">
-
         <fieldset>
-            <legend> DADOS PESSOAIS </legend>
-            <label for="caixa-nome"> Nome Completo: </label>
-            <input type="text" id="caixa-nome">
+          <legend>DADOS PESSOAIS</legend>
+          <label for="caixa-nome"> Nome Completo: </label>
+          <input type="text" id="caixa-nome" />
 
-            <label for="caixa-dataN"> Data de nascimento: </label>
-            <input type="datetime-local" id="caixa-dataN">
+          <label for="caixa-dataN"> Data de nascimento: </label>
+          <input type="datetime-local" id="caixa-dataN" />
 
-            <input type="radio" id="caixa-genero">
-                <label for="caixa-genero"> Masculino </label>
-            
-                <input type="radio" id="caixa-genero">
-                <label for="caixa-genero"> Feminino </label>
-        
-                <label for="caixa-genero"> Outro: </label>
-                <input type="text" id="caixa-genero">
+          <input type="radio" id="caixa-genero" />
+          <label for="caixa-genero"> Masculino </label>
 
+          <input type="radio" id="caixa-genero" />
+          <label for="caixa-genero"> Feminino </label>
+
+          <label for="caixa-genero"> Outro: </label>
+          <input type="text" id="caixa-genero" />
         </fieldset>
 
         <fieldset>
-            <legend>Dados de Competidor</legend>
-             <label for="caixa-email"> Email: </label>
-             <input type="email" id="caixa-email">
+          <legend>Dados de Competidor</legend>
+          <label for="caixa-email"> Email: </label>
+          <input type="email" id="caixa-email" />
 
-             <label for="caixa-senha"> Senha: </label>
-             <input type="password" id="caixa-senha">
+          <label for="caixa-senha"> Senha: </label>
+          <input type="password" id="caixa-senha" />
 
-             <label for="caixa-nick"> ID de jogador: </label>
-             <input type="text" id="caixa-nick">
+          <label for="caixa-nick"> ID de jogador: </label>
+          <input type="text" id="caixa-nick" />
 
+          <label for="caixa-equipe"> ID da Equipe: </label>
+          <input type="text" id="caixa-equipe" />
 
-             <label for="caixa-equipe"> ID da Equipe: </label>
-             <input type="text" id="caixa-equipe">
-
-              <label for="caixa-jogo">Jogo:</label>
-                <select id="caixa-jogo">
-                    <option value="Nada"> SELECIONE </option>
-                    <option value="Valorant"> Valorant </option>
-                    <option value="CS:GO2"> CS:GO 2 </option>
-                    <option value="RAINBOW SIX"> Rainbow Six </option>
-                    <option value="OVERWATCH2"> Overwatch 2 </option>
-                    <option value="TFT2"> Team Fortress 2 </option>
-                </select>
-              <label for="caixa-Modalidade">Modalidade:</label>
-                <select id="caixa-Modalidade">
-                    <option value="Nada"> SELECIONE </option>
-                    <option value="5v5"> 5v5 </option>
-                    <option value="Individual"> Individual </option>
-                    <option value="Dupla"> Dupla </option>
-                </select>
-              <label for="caixa-expe">Experiência:</label>
-                <select id="caixa-expe">
-                    <option value="Nada"> SELECIONE </option>
-                    <option value="Iniciante"> Iniciante </option>
-                    <option value="Intermediário"> Intermediário </option>
-                    <option value="Profissional"> Profissional </option>
-                </select>
-
+          <label for="caixa-jogo">Jogo:</label>
+          <select id="caixa-jogo">
+            <option value="Nada">SELECIONE</option>
+            <option value="Valorant">Valorant</option>
+            <option value="CS:GO2">CS:GO 2</option>
+            <option value="RAINBOW SIX">Rainbow Six</option>
+            <option value="OVERWATCH2">Overwatch 2</option>
+            <option value="TFT2">Team Fortress 2</option>
+          </select>
+          <label for="caixa-Modalidade">Modalidade:</label>
+          <select id="caixa-Modalidade">
+            <option value="Nada">SELECIONE</option>
+            <option value="5v5">5v5</option>
+            <option value="Individual">Individual</option>
+            <option value="Dupla">Dupla</option>
+          </select>
+          <label for="caixa-expe">Experiência:</label>
+          <select id="caixa-expe">
+            <option value="Nada">SELECIONE</option>
+            <option value="Iniciante">Iniciante</option>
+            <option value="Intermediário">Intermediário</option>
+            <option value="Profissional">Profissional</option>
+          </select>
         </fieldset>
 
-         <button type="submit" class="botao"> Realizar Inscrição </button>
-          <button type="reset" class="botao"> Resetar </button>
-
+        <button type="submit" class="botao">Realizar Inscrição</button>
+        <button type="reset" class="botao">Resetar</button>
       </form>
-
     </main>
 
-   <footer>
-        <strong> SITE FEITO POR: BERNARDO S. CARVALHO. </strong>
-        <br>
-        <strong> TODOS DIREITOS RESERVADOS A GAMERZONE. </strong>
+    <footer>
+      <strong> SITE FEITO POR: BERNARDO S. CARVALHO. </strong>
+      <br />
+      <strong> TODOS DIREITOS RESERVADOS A GAMERZONE. </strong>
     </footer>
-</body>
+  </body>
 </html>
